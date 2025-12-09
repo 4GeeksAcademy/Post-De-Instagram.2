@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5%;
+}
+
+.Primer-Contenedor{
+width: 500px;
+height: 600px;
+background-color: white;
+margin-bottom: 15px;
+
+}
+
+
+.Cabeza-Post{
+ width: 480px;
+ height: auto;
+ background-color: white;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0 10px;
+}
+
+.Mini-izquierda{
+   width: 10%;
+   height: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 10px;
+}
+
+
+
+.Mini-Derecha {
+    width: 15%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.menu{
+    color: black;
+    font-size: 2em;
+    cursor: pointer;
+    margin: 0;
+    padding: 10px;
+}
+
+
+.Foto-Perfil{
+    width: 100%;
+    height: auto;
+    
+}
+
+.img{
+    width: 100%;
+    height: auto;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+
+
+
+.Iconos-Post{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+
+
+.icono{
+    color: black;
+    font-size: 2em;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 0;
+}
+
+
+.icono-derecha{
+   position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+   
+
+}
+
+
+.footer{
+   width: 100%;
+   height: auto;
+   background-color: white;
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   box-sizing: border-box;
+   padding-right: 10px;
+}
